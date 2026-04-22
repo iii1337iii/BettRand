@@ -27,7 +27,8 @@ for generating random numbers of various types.
   `betrand::chance_to_attempts(<VALUE>)` - This serves as a representation of the previous function,  
   but returns a random integer number of attempts required for a success to occur with a probability of `VALUE`.
 
-  `betrand::normal_distribution()` - Returns a random real number in the range from 0 to 1.
+  `betrand::normal_distribution<VALUE>()` - Returns a random real number in the range from 0 to 1.  
+  The `VALUE` parameter controls the number of digits after the decimal point.
 
   ### Arrays
   `betrand::shuffle(<ORIGIN_VECTOR>)` - Randomly shuffles the values ​​in an array by index.  
