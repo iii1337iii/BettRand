@@ -30,7 +30,7 @@ for generating random numbers of various types.
   `betrand::normal_distribution()` - Returns a random real number in the range from 0 to 1.
 
   ### Arrays
-  `betrand::chance_to_attempts(<ORIGIN_VECTOR>)` - Randomly shuffles the values ​​in an array by index.  
+  `betrand::shuffle(<ORIGIN_VECTOR>)` - Randomly shuffles the values ​​in an array by index.  
 
   `betrand::rand_select(<ORIGIN_VECTOR>, <RESULT_VECTOR>, <AMOUNT>)` - Selects `AMOUNT` random elements  
   from `ORIGIN_VECTOR` and inserts them into `RESULT_VECTOR`.
